@@ -1,4 +1,15 @@
-ul {
+body {
+  margin: auto;
+  background: #e7e5e2;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 27px;
+  background-image: url("http://www.psdgraphics.com/file/binary-code-background.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.nav-container ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,11 +17,11 @@ ul {
   background-color: #333;
 }
 
-li {
-  float: right;
+.nav-container li {
+  float: left;
 }
 
-li a {
+.nav-container li a {
   display: block;
   color: white;
   text-align: center;
@@ -18,13 +29,135 @@ li a {
   text-decoration: none;
 }
 
-.text-center {
+.social-center {
   text-align: center;
+  color: #f39e12;
+}
+
+.nav-container {
+  font-family: serif;
+}
+
+.code-open,
+.code-close {
+  display: inline;
 }
 
 /* Change the link color on hover */
-li a:hover {
+.nav-container li a:hover {
   background-color: #111;
+}
+
+img {
+  padding: 2px;
+}
+
+.card {
+  background: inherit;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 1em;
+  text-align: center;
+  width: 500px;
+}
+
+.card--avatar {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.code-open,
+.code-close,
+.brace-open,
+.brace-close {
+  color: #0000;
+  font-size: 45px;
+}
+
+.center-welcome {
+  align-items: center;
+  padding-left: 8%;
+  margin-right: 25%;
+  margin-left: 25%;
+  font-size: 22px;
+}
+
+.heading {
+  font-family: Times sans-serif;
+}
+
+.indented {
+  margin: 50px;
+}
+
+/* flexbox layout settings */
+.main-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.skillset {
+  display: inline-block;
+}
+
+.skillset ul {
+  list-style-type: disc;
+  background: inherit;
+}
+
+p.text {
+  padding: 15px;
+  margin: 15px;
+  font-family: Times;
+  line-height: 35px;
+  text-indent: 5%;
+}
+
+.right-side-bar,
+.right-side-bar li,
+.right-side-bar ul {
+  /* 12em is the width of the columns */
+  flex: 0 0 30em;
+  list-style: disc;
+}
+
+.skillset ul li {
+  color: #0000;
+}
+
+.right-side-bar {
+  padding: 1em;
+  border-radius: 3px;
+  margin: 10px;
+  line-height: 20px;
+}
+
+@media (--break-lg) {
+  .HolyGrail-body {
+    flex-direction: row;
+  }
+
+  .HolyGrail-content {
+    flex: 1;
+    padding: 0 var(--space-lg);
+    margin: 0;
+  }
+
+  .right-side-bar {
+    flex: 0 0 12em;
+  }
 }
 
 /* Social icons styling */
@@ -64,3 +197,14 @@ li a:hover {
 #social-em:hover {
   color: #f39c12;
 }
+
+/* vertical line separator */
+
+/* .vr {
+  display: inline-block;
+  height: 100%;
+  width: 0.5px;
+  border: 1px inset;
+  margin: 5px;
+  color: #011f;
+}*/
