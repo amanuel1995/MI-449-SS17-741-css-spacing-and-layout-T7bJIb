@@ -4,9 +4,8 @@ body {
   font-family: monospace;
   font-size: 17px;
   line-height: 27px;
-  color: white;
+  color: #fff;
   background-image: url("/assets/back_image.jpg");
-  /*background-repeat: repeat;*/
 }
 
 .nav-container ul {
@@ -48,8 +47,8 @@ body {
   background-color: #111;
 }
 
-img {
-  padding: 2px;
+#download {
+  margin-left: 255px;
 }
 
 .card {
@@ -120,7 +119,6 @@ img {
 p.text {
   padding: 15px;
   margin: 15px;
-  /*font-family: Times;*/
   line-height: 25px;
   text-indent: 5%;
 }
@@ -160,6 +158,10 @@ p.text {
   }
 }
 
+.center-welcome img {
+  margin: 0 auto;
+}
+
 /* Social icons styling */
 
 .social:hover {
@@ -183,11 +185,11 @@ p.text {
 /* Multicoloured Hover Variations */
 
 #social-fb:hover {
-  color: #FEFEFE;
+  color: #4099ff;
 }
 
 #social-tw:hover {
-  color: #4099ff;
+  color: #40effe;
 }
 
 #social-gp:hover {
