@@ -2,11 +2,11 @@ body {
   margin: auto;
   background: #e7e5e2;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 27px;
-  background-image: url("http://www.psdgraphics.com/file/binary-code-background.jpg");
-  background-repeat: no-repeat;
-  color: #fff;
+  color: white;
+  background-image: url("/assets/back_image.jpg");
+  /*background-repeat: repeat;*/
 }
 
 .nav-container ul {
@@ -58,7 +58,7 @@ img {
   margin-top: 50px;
   padding: 1em;
   text-align: center;
-  width: 500px;
+  width: 100%;
 }
 
 .card--avatar {
@@ -120,8 +120,8 @@ img {
 p.text {
   padding: 15px;
   margin: 15px;
-  font-family: Times;
-  line-height: 35px;
+  /*font-family: Times;*/
+  line-height: 25px;
   text-indent: 5%;
 }
 
@@ -183,7 +183,7 @@ p.text {
 /* Multicoloured Hover Variations */
 
 #social-fb:hover {
-  color: #3b5998;
+  color: #FEFEFE;
 }
 
 #social-tw:hover {
@@ -198,6 +198,10 @@ p.text {
   color: #f39c12;
 }
 
+#social-ln:hover {
+  color: #0077b5;
+}
+
 /* vertical line separator */
 
 /* .vr {
@@ -207,4 +211,4 @@ p.text {
   border: 1px inset;
   margin: 5px;
   color: #011f;
-}*/
+} */
