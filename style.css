@@ -5,7 +5,7 @@ body {
   font-size: 17px;
   line-height: 27px;
   color: #fff;
-  background-image: url("/assets/back_image.jpg");
+  background-image: url("assets/back_image.jpg");
 }
 
 .nav-container ul {
@@ -203,14 +203,3 @@ p.text {
 #social-ln:hover {
   color: #0077b5;
 }
-
-/* vertical line separator */
-
-/* .vr {
-  display: inline-block;
-  height: 100%;
-  width: 0.5px;
-  border: 1px inset;
-  margin: 5px;
-  color: #011f;
-} */
