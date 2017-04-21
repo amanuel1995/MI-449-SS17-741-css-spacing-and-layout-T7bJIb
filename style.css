@@ -4,8 +4,9 @@ body {
   font-family: monospace;
   font-size: 17px;
   line-height: 27px;
-  color: #fff;
+  color: #7daae5;
   background-image: url("./assets/back_image.jpg");
+  background-repeat: repeat;
 }
 
 .nav-container ul {
@@ -83,11 +84,12 @@ body {
 }
 
 .heading {
+  padding-top: 15px;
   font-family: Times sans-serif;
 }
 
 .indented {
-  margin: 50px;
+  margin: 25px;
 }
 
 /* flexbox layout settings */
@@ -116,7 +118,7 @@ body {
   background: inherit;
 }
 
-p.text {
+div.text {
   padding: 15px;
   margin: 15px;
   line-height: 25px;
